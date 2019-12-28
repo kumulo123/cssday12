@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#my_body{
+    background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd2v9y0dukr6mq2.cloudfront.net%2Fvideo%2Fthumbnail%2FSsLYSh45lizrfzvep%2Fvideoblocks-business-man-working-and-writing-in-laptop-on-office-desk-background-hands-top-view-slow-motion-red-epic_sug-kvxlhe_thumbnail-full01.png&f=1&nofb=1");
+    background-size: auto auto;
+    flex-direction: column;
+}
+
+#txtgetjob{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 40pt;
+}
+
+.txtbx{
+    width: 80%;
+    height: 3em;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    font-size: 12pt;
+}
+
+#indexcont{
+    flex-direction: column;
+    width: 50%;
+    height: 40%;
+    /*background-color: rgb(255,255,255,0.5);*/
+    margin-top: 10%;      
+}
+
+#logincont{
+    flex-direction: column;
+    width: 20%;
+    height: 40%;
+    background-color: rgb(255,255,255,0.5);
+    margin-top: 3%;
+    color: white;
+}
+
+#registercont{
+    flex-direction: column;
+    width: 20%;
+    height: 50%;
+    background-color: rgb(255,255,255,0.5);
+    margin-top: 3%;
+    color: white;
+}
+
+#txtbxs{
+    width: 100%;
+    flex-direction: column;
+    
+}
+
+#blck{
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0,0,0,0.7);
+}
+
+#container1{
+    background-color: white;
+    height: 10%;
+    width: 100%;
+}
+
+#leftnavbar{
+    padding-left: 5%;
+}
+
+#rightnavbar{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.flexi{
+    display: flex;
+}
+
+.centera{
+    align-items: center;
+}
+
+.centerj{
+    justify-content: center;
+}
+
+.centersa{
+    justify-content: space-around
+}
+
+.centersb{
+    justify-content: space-between;
+}
+
+.navbarword{
+    color: tan;
+    text-decoration: none;
+    font-size: 30pt;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+.navbarword:visited{
+    color: tan;
+}
+
+.navbarword:hover{
+    color: #bc9055;
+}
+
+.btn{
+    background-color: tan;
+    color: white;
+    height: 3em;
+    width: 80%;
+}
+
+.btn:hover{
+    background-color: #bc9055;
+}
